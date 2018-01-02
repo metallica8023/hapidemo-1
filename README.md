@@ -22,8 +22,10 @@ docker run -d -p 8000:8000 mytag
 ```
 ## swagger integrated
 >  first must add  hapi-swagger &&  inert && vision 
-> if you git clone the project and yarn it would install
-> other see below
+
+>  if you git clone the project and yarn it would install
+
+>  other see below
 
 * install  hapi-swagger inert vision
 ```sh
