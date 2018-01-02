@@ -1,0 +1,17 @@
+{
+  "name": "hapidemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "pm2": "pm2 app.js",
+    "build": "docker build -t dalongrong/demo .",
+    "lint": "eslint *.js --fix"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.1.2",
+    "hapi": "^17.2.0",
+    "inert": "^5.0.1"
+  }
+}
